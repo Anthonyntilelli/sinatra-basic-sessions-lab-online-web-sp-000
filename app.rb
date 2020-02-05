@@ -18,7 +18,6 @@ class App < Sinatra::Base
   end
   
   get '/session' do
-    binding.pry
     session.to_hash.to_s
   end
 end
